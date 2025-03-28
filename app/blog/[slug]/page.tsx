@@ -1,9 +1,13 @@
+import { CustomMarkdown } from "@/components/custom-markdown";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
-import Markdown from "markdown-to-jsx";
 import Link from "next/link";
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params.slug);
+export default async function BlogPost({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const post = getPostBySlug((await params).slug);
 
   return (
     <main className="bg-zinc-50 min-h-screen pt-24">
@@ -23,7 +27,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
               </div>
             </header>
             <div className="prose prose-zinc max-w-none">
-              <Markdown>{post.content}</Markdown>
+              <CustomMarkdown content={post.content} />
             </div>
             <div className="mt-12 pt-8 border-t border-zinc-200">
               <Link

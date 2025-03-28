@@ -5,8 +5,6 @@ category: "Pesquisa"
 excerpt: "Como a pesquisa científica contribui para a formação de profissionais mais completos e inovadores na área de Tecnologia da Informação."
 ---
 
-# A Importância da Pesquisa Acadêmica na Formação em TI
-
 A pesquisa acadêmica desempenha um papel fundamental na formação de profissionais de Tecnologia da Informação, indo muito além do aprendizado técnico tradicional. Neste artigo, discutimos como a participação em projetos de pesquisa enriquece a formação dos estudantes de Sistemas de Informação.
 
 ## Desenvolvimento do pensamento crítico
@@ -37,4 +35,3 @@ No Instituto Federal de São Paulo, os estudantes de Sistemas de Informação t�
 Essas experiências não apenas enriquecem o currículo acadêmico, mas também preparam os estudantes para os desafios do mercado de trabalho e para a possibilidade de continuarem seus estudos em programas de pós-graduação.
 
 A combinação de uma sólida formação técnica com experiências em pesquisa científica forma profissionais mais completos, capazes de não apenas aplicar tecnologias existentes, mas também de contribuir para o desenvolvimento de novas soluções e para o avanço da área de Tecnologia da Informação como um todo.
-
