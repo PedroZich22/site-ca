@@ -18,10 +18,18 @@ export function Footer() {
           <ul className="space-y-2 text-sm">
             <li>
               <Link
-                href="/sobre-curso"
+                href="/sobre-instituicao"
                 className="hover:text-purple-700 transition-colors"
               >
-                O Curso
+                Instituição e Curso
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/recursos-academicos"
+                className="hover:text-purple-700 transition-colors"
+              >
+                Corpo Docente
               </Link>
             </li>
             <li>
@@ -74,8 +82,8 @@ export function Footer() {
       </div>
       <div className="max-w-6xl mx-auto px-4 py-6 border-t border-zinc-200">
         <p className="text-center text-sm">
-          © {new Date().getFullYear()} Centro Acadêmico Tim Berners-Lee - IFSP -
-          Feito por Pedro Zich
+          © {new Date().getFullYear()} Centro Acadêmico Tim Berners-Lee - IFSP
+          - Feito por Pedro Zich
         </p>
       </div>
     </footer>

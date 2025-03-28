@@ -19,6 +19,7 @@ A programação é uma habilidade fundamental no mundo atual, mas dar os primeir
 ## Primeiros passos
 
 1. **Escolha uma linguagem inicial**
+
    - Python é uma excelente opção para iniciantes
    - JavaScript para quem quer começar com web
    - Java para uma base sólida em orientação a objetos
@@ -32,6 +33,7 @@ A programação é uma habilidade fundamental no mundo atual, mas dar os primeir
 ## Próximos passos
 
 Após dominar os conceitos básicos, você pode:
+
 - Participar de projetos open source
 - Criar um portfólio pessoal
 - Explorar frameworks populares

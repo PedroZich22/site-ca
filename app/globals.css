@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --font-inter: '__Inter_e66fe9';
-  --font-merriweather: '__Merriweather_e5c0ef';
+  --font-inter: "__Inter_e66fe9";
+  --font-merriweather: "__Merriweather_e5c0ef";
 }
 
 .font-serif {
-  font-family: var(--font-merriweather), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family:
+    var(--font-merriweather), ui-serif, Georgia, Cambria, "Times New Roman",
+    Times, serif;
 }
 
 @layer base {
