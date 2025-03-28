@@ -5,8 +5,6 @@ category: "Carreira"
 excerpt: "Análise das tendências atuais do mercado de trabalho em Tecnologia da Informação e dicas para estudantes que estão prestes a se formar."
 ---
 
-# O Mercado de Trabalho em TI: Perspectivas para Recém-Formados
-
 O mercado de trabalho em Tecnologia da Informação continua em expansão, mesmo em tempos de incerteza econômica. Para os estudantes de Sistemas de Informação que estão prestes a se formar, é importante entender as tendências atuais e como se preparar para ingressar nesse mercado competitivo.
 
 ## Áreas em alta demanda
@@ -51,4 +49,3 @@ Embora existam muitas rotas alternativas para ingressar no mercado de TI, a form
 - Rede de contatos acadêmicos e profissionais
 
 A combinação de uma formação acadêmica de qualidade com iniciativas de desenvolvimento pessoal e profissional prepara os estudantes não apenas para o primeiro emprego, mas para uma carreira de longo prazo em um campo dinâmico e desafiador.
-

@@ -5,8 +5,6 @@ category: "Educação"
 excerpt: "Um guia prático para iniciar sua jornada na programação, com dicas e recursos essenciais."
 ---
 
-# Introdução à Programação: Por Onde Começar?
-
 A programação é uma habilidade fundamental no mundo atual, mas dar os primeiros passos pode parecer intimidante. Neste artigo, vamos explorar um caminho estruturado para iniciar seus estudos em programação.
 
 ## Por que aprender a programar?
