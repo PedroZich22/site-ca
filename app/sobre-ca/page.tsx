@@ -7,6 +7,7 @@ import {
   Calendar,
   BookOpen,
   HelpCircle,
+  Phone,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -49,19 +50,6 @@ const diretoria = [
     nome: "Gustavo da Silva",
     cargo: "Marketing",
     curso: "Sistemas de Informação - 5º Semestre",
-  },
-];
-
-const atendimento = [
-  {
-    dia: "Segunda a Sexta",
-    horario: "17h às 19h",
-    local: "Sala do CA (Bloco A, Sala 110)",
-  },
-  {
-    dia: "Sábados",
-    horario: "9h às 12h",
-    local: "Sala do CA (Bloco A, Sala 110)",
   },
 ];
 
@@ -219,36 +207,6 @@ export default function SobreCAPage() {
               </div>
             </Card>
           </div>
-
-          <div className="bg-white rounded-lg border border-zinc-200 p-6">
-            <div className="flex items-start gap-4">
-              <div className="text-purple-700 mt-1">
-                <BookOpen className="w-6 h-6" />
-              </div>
-              <div>
-                <h3 className="text-xl font-medium text-zinc-900 mb-3">
-                  Horários de Atendimento
-                </h3>
-                <p className="text-zinc-600 mb-4">
-                  O Centro Acadêmico mantém atendimento presencial para todos os
-                  estudantes do curso nos seguintes horários:
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {atendimento.map((item, index) => (
-                    <div key={index} className="bg-zinc-50 p-4 rounded-md">
-                      <p className="font-medium text-zinc-900">{item.dia}</p>
-                      <p className="text-zinc-600">{item.horario}</p>
-                      <p className="text-zinc-500 text-sm">{item.local}</p>
-                    </div>
-                  ))}
-                </div>
-                <p className="text-zinc-600 mt-4">
-                  Fora desses horários, você pode entrar em contato conosco por
-                  e-mail ou redes sociais.
-                </p>
-              </div>
-            </div>
-          </div>
         </ContentSection>
 
         {/* Gestão Atual */}
@@ -342,22 +300,25 @@ export default function SobreCAPage() {
                 </div>
               </Card>
               <Card className="p-6 border-zinc-200">
-                <h3 className="text-xl font-medium text-zinc-900 mb-4">
-                  Entre em Contato
-                </h3>
-                <div className="space-y-4 text-zinc-600">
-                  <p>
-                    <span className="font-medium">E-mail:</span>{" "}
-                    ca.bsi.ifsp@gmail.com
-                  </p>
-                  <p>
-                    <span className="font-medium">Instagram:</span>{" "}
-                    @ca.timbl.ifsp
-                  </p>
-                  <p>
-                    <span className="font-medium">Sala do CA:</span> Bloco A,
-                    Sala 110
-                  </p>
+                <div className="flex items-start gap-4">
+                  <div className="text-purple-700 mt-1">
+                    <Phone className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-medium text-zinc-900 mb-4">
+                      Entre em Contato
+                    </h3>
+                    <div className="space-y-4 text-zinc-600">
+                      <p>
+                        <span className="font-medium">E-mail:</span>{" "}
+                        ca.bsi.ifsp@gmail.com
+                      </p>
+                      <p>
+                        <span className="font-medium">Instagram:</span>{" "}
+                        @ca.timbernerslee
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </Card>
             </div>
